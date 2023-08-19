@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
 :root{
-    --font-family-barrlow-Condensed : 'Lexend Deca', sans-serif;
+    --font-family-barrlow-Condensed : 'Barlow Condensed', sans-serif;
     --font-size : 18px;
     --font-family-barrlow : 'Barlow', sans-serif;
     --Red: hsl(0, 100%, 68%);
@@ -22,6 +22,7 @@ header{
     justify-content: space-around;
     align-items: center;
     padding: 12px;
+    font-family: var(--font-family-barrlow-Condensed);
 }
 
 ul{
@@ -42,5 +43,49 @@ ul{
             position: relative;
             left: 50px;
         }
+    }
+    & > li:hover{
+        text-decoration: underline;
+    }
+}
+
+main{
+    max-width: 50rem;
+    & > .new{
+        display: inline-block;
+        font-weight: bold;
+        margin-right: 12px;
+        text-align: center;
+        text-transform: uppercase;
+        width: 60px;
+        padding: 8px;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+    }
+    & > .monograph{
+        color: var(--Grayish-Blue);
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+    & > h1{
+        text-transform: uppercase;
+        font-size: 80px;
+        font-weight: bolder;
+    }
+    & > .btn{
+        padding: 10px;
+        display: inline-block;
+        background-color: var(--Red);
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    & > .temp{
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        margin-left: 10px;
+        font-size: 12px;
     }
 }
