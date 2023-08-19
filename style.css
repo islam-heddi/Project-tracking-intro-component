@@ -34,4 +34,13 @@ ul{
         text-transform: uppercase;
         cursor: pointer;
     }
+    & > li:last-child{
+        color: var(--Grayish-Blue);
+        list-style-type: disc;
+        margin-left: 120px;
+        & > span{
+            position: relative;
+            left: 50px;
+        }
+    }
 }
