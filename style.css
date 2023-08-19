@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+:root{
+    --font-family-barrlow-Condensed : 'Lexend Deca', sans-serif;
+    --font-size : 18px;
+    --font-family-barrlow : 'Barlow', sans-serif;
+    --Red: hsl(0, 100%, 68%);
+    --Very-Dark-Blue: hsl(230, 29%, 20%);
+    --Dark-Grayish-Blue: hsl(230, 11%, 40%);
+    --Grayish-Blue: hsl(231, 7%, 65%);
+    --Light-Grayish-Blue: hsl(207, 33%, 95%);
+}
+
+*{
+    font-family: var(--font-family-barrlow);
+    font-size: var(--font-size);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    & > li{
+        font-weight: bold;
+        list-style-type: none;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}
