@@ -43,3 +43,11 @@
     }
 
 }
+
+@media only screen and (max-width:375px) {
+    main img{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }   
+}
