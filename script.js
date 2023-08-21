@@ -4,7 +4,7 @@ function menu(){
     var navigation = document.querySelector("nav");
     if(is_opened){
         is_opened = !is_opened;
-        navigation.style.display = "none";
+        navigation.style = "";
         menu_btn.src = "./images/icon-hamburger.svg";    
     }else{
         is_opened = !is_opened;

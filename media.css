@@ -1,0 +1,42 @@
+@media only screen and (min-width: 658px) {
+    nav{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 658px) {
+    button{
+        display: block;
+        background-color: white;
+        border-color: white;
+        border: 0px;
+    }
+    
+    nav{
+        display: none;
+        position: absolute;
+        top: 10vh;
+        width: 370px;
+        background-color: white;
+        box-shadow:  2px 2px 2px 2px;
+        padding: 12px;
+        min-height: 150px;
+        & > ul{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            & > li:last-child {
+                padding-top: 30px;
+                margin-top: 30px;
+                list-style-type: none;
+                margin-left: 0px;
+                & > span{
+                    left: 0;
+                }
+                border-top: 3px solid hsl(231, 7%, 65%);
+            }
+        }
+    }
+
+}
