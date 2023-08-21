@@ -56,7 +56,7 @@ ul{
         cursor: pointer;
     }
     & > li:last-child{
-        width: 120px;
+        width: 60px;
         color: var(--Grayish-Blue);
         list-style-type: disc;
         & > span{
@@ -79,7 +79,7 @@ main{
         right: -265px;
     }
     & > .presentation{
-        max-width: 50rem;
+        max-width: 22rem;
         & > .new{
             display: inline-block;
             font-weight: bold;
@@ -99,13 +99,17 @@ main{
         }
         & > h1{
             text-transform: uppercase;
-            font-size: 80px;
+            font-size: 70px;
             font-weight: bolder;
             margin: 0;
+            width: 8em;
+            color: var(--Very-Dark-Blue);
         }
         & > .slogan {
-            max-width: 13em;
+            max-width: 16em;
             color: var(--Grayish-Blue);
+            font-family: var(--font-family-barrlow);
+            font-weight: bold;
         }
         & > .btn{
             padding: 10px 30px;
