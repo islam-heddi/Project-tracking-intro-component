@@ -35,18 +35,13 @@ header{
 @media only screen and (max-width: 658px) {
     button{
         display: block;
-    }
-    nav{
-        display: none;
-    }
-
-    button{
         background-color: white;
         border-color: white;
         border: 0px;
     }
     
     nav{
+        display: none;
         position: absolute;
         top: 10vh;
         width: 370px;
