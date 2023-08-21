@@ -44,6 +44,7 @@ ul{
         cursor: pointer;
     }
     & > li:last-child{
+        width: 300px;
         color: var(--Grayish-Blue);
         list-style-type: disc;
         margin-left: 120px;
