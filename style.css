@@ -16,6 +16,22 @@
     font-size: var(--font-size);
 }
 
+body{
+    overflow-x: hidden;
+}
+
+.backg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 490px;
+    width: 48rem;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    background-color: var(--Light-Grayish-Blue);
+}
+
+
 button{
     display: none;
 }
@@ -44,7 +60,6 @@ ul{
         cursor: pointer;
     }
     & > li:last-child{
-        width: 300px;
         color: var(--Grayish-Blue);
         list-style-type: disc;
         margin-left: 120px;
@@ -59,9 +74,16 @@ ul{
 }
 
 main{
+    display: grid;
+    grid-template-columns: 200fr auto;
     margin-left: 100px;
+    & > img{
+        width: 70rem;
+        position: relative;
+        right: -10px;
+    }
     & > .presentation{
-        max-width: 50rem;
+        width: 700px;
         & > .new{
             display: inline-block;
             font-weight: bold;
@@ -81,7 +103,7 @@ main{
         }
         & > h1{
             text-transform: uppercase;
-            font-size: 80px;
+            font-size: 60px;
             font-weight: bolder;
         }
         & > .btn{

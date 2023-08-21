@@ -7,8 +7,8 @@
 @media only screen and (max-width: 658px) {
     button{
         display: block;
-        background-color: white;
-        border-color: white;
+        background-color: rgba(255, 255, 255, 0);
+        border-color: rgba(255, 255, 255, 0);
         border: 0px;
     }
     
