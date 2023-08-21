@@ -1,6 +1,3 @@
-var buttn = document.getElementById("mybtn");
-
-buttn.addEventListener("click", menu());
 
 function menu(){
     var is_opened = false;
