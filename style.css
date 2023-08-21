@@ -32,6 +32,12 @@ header{
     font-family: var(--font-family-barrlow-Condensed);
 }
 
+@media only screen and (min-width: 658px) {
+    nav{
+        display: block;
+    }
+}
+
 @media only screen and (max-width: 658px) {
     button{
         display: block;

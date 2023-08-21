@@ -1,6 +1,5 @@
 var is_opened = false;
 function menu(){
-    
     var menu_btn = document.getElementById("btn");
     var navigation = document.querySelector("nav");
     if(is_opened){
